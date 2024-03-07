@@ -1,0 +1,12 @@
+.searchbar form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+    margin-right: 25px;
+}
+.searchbar form input{
+    border-radius: 5px;
+    margin: 0 0 0 10px;
+}

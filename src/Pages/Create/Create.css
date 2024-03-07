@@ -1,0 +1,77 @@
+.create{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+form{
+    margin: 0 auto;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+form span{
+    display: block;
+}
+
+form label,input,textarea{
+    text-align: left;
+    display: block;
+}
+
+form label{
+    margin: 5px 0;
+}
+
+form label span{
+    font-size: 19px;
+}
+
+form input,textarea{
+    margin: 5px auto;
+    width: 100%;
+    height: 25px;
+    font-size: 19px;
+}
+
+form textarea{
+    height: 75px;
+}
+
+form button.btn{
+    padding: 6px;
+    display: block;
+    margin: 7px auto;
+    background: none;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+form button.btn:hover{
+    color: #fff;
+    background-color: #58249c;
+}
+
+.ingredients{
+    display: flex;
+    align-items: center;
+}
+
+.ingredients button{
+    background: #58249c;
+    color: #fff;
+    border: none;
+    padding: 6px 25px;
+    height: 30px;
+    display: inline-block;
+    margin: 0 0 0 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.ingredients button:hover{
+    background: #fff;
+    color: #000;
+}
